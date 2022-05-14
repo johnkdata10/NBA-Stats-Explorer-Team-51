@@ -44,11 +44,11 @@ def translate_stat_type(stat_type):
 def main():    
     st.set_option('deprecation.showPyplotGlobalUse', False)
     icon = Image.open(os.path.join(script_directory, 'favicon.ico'))
-    st.set_page_config('NBA Stats Explorer', icon)
+    st.set_page_config('Team 51 NBA Stats Explorer', icon)
 
-    st.markdown('<img src=\"https://cdn.nba.com/logos/nba/nba-logoman-75-word_white.svg\" alt=\"NBA logo\" style=\"width:150px\"> ' , 
+    st.markdown('<img src=\"https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg\" alt=\"NBA logo\" style=\"width:150px\"> ' , 
         unsafe_allow_html=True)
-    st.title('NBA Stats Explorer')
+    st.title('Team 51 NBA Stats Explorer')
 
     st.markdown("""
       This app performs simple webscraping of NBA player stats data!
