@@ -29,4 +29,4 @@ Install streamlit and run the app
 $ pip install streamlit
 $ streamlit run nba_app.py
 ```
-Now go to <http://localhost:8501> to see the application running and enjoy :basketball::rocket::smiley:
+:basketball::rocket::smiley:
