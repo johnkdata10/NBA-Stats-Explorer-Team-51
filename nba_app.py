@@ -44,14 +44,14 @@ def translate_stat_type(stat_type):
 def main():    
     st.set_option('deprecation.showPyplotGlobalUse', False)
     icon = Image.open(os.path.join(script_directory, 'favicon.ico'))
-    st.set_page_config('Team 51 NBA Stats Explorer', icon)
+    st.set_page_config('NBA Stats Explorer - Team 51 - Sacramento King-Makers', icon)
 
     st.markdown('<img src=\"https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg\" alt=\"NBA logo\" style=\"width:150px\"> ' , 
         unsafe_allow_html=True)
-    st.title('Team 51 NBA Stats Explorer')
+    st.title('NBA Stats Explorer - Team 51 - Sacramento King-Makers')
 
     st.markdown("""
-      This app performs simple webscraping of NBA player stats data!
+      This app performs provides an inside look at the NBA stats that fueled the Sacramento King-Makers' new "position-less" era of basketball project!
     * **Python libraries:** base64, matplotlib, pandas, plotly, streamlit
     * **Data source:** [Basketball-reference.com](https://www.basketball-reference.com/).
     """)
